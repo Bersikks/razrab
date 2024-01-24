@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F75F6532B609DD70054962B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75F6522B609DD70054962B /* AppDelegate.swift */; };
+		5F75F6552B609DD70054962B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75F6542B609DD70054962B /* SceneDelegate.swift */; };
+		5F75F65A2B609DD70054962B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F75F6582B609DD70054962B /* Main.storyboard */; };
+		5F75F65C2B609DD80054962B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F75F65B2B609DD80054962B /* Assets.xcassets */; };
+		5F75F65F2B609DD80054962B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F75F65D2B609DD80054962B /* LaunchScreen.storyboard */; };
+		5F75F66A2B609DD80054962B /* medic_smartlabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75F6692B609DD80054962B /* medic_smartlabTests.swift */; };
+		5F75F6742B609DD80054962B /* medic_smartlabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75F6732B609DD80054962B /* medic_smartlabUITests.swift */; };
+		5F75F6762B609DD80054962B /* medic_smartlabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75F6752B609DD80054962B /* medic_smartlabUITestsLaunchTests.swift */; };
+		5F75F6852B609EE60054962B /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75F6842B609EE60054962B /* OnBoardingViewController.swift */; };
+		5F75F6882B60A1760054962B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75F6872B60A1760054962B /* UIView+Extensions.swift */; };
+		5F75F68B2B60A2280054962B /* OnBoardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75F68A2B60A2280054962B /* OnBoardingSlide.swift */; };
+		5F75F68D2B60A2F80054962B /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75F68C2B60A2F80054962B /* OnBoardingCollectionViewCell.swift */; };
+		5F75F68F2B60CA500054962B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75F68E2B60CA500054962B /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F75F6662B609DD80054962B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F75F6472B609DD70054962B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F75F64E2B609DD70054962B;
+			remoteInfo = medic_smartlab;
+		};
+		5F75F6702B609DD80054962B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F75F6472B609DD70054962B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F75F64E2B609DD70054962B;
+			remoteInfo = medic_smartlab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F75F64F2B609DD70054962B /* medic_smartlab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = medic_smartlab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F75F6522B609DD70054962B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F75F6542B609DD70054962B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F75F6592B609DD70054962B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F75F65B2B609DD80054962B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F75F65E2B609DD80054962B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F75F6602B609DD80054962B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F75F6652B609DD80054962B /* medic_smartlabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = medic_smartlabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F75F6692B609DD80054962B /* medic_smartlabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medic_smartlabTests.swift; sourceTree = "<group>"; };
+		5F75F66F2B609DD80054962B /* medic_smartlabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = medic_smartlabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F75F6732B609DD80054962B /* medic_smartlabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medic_smartlabUITests.swift; sourceTree = "<group>"; };
+		5F75F6752B609DD80054962B /* medic_smartlabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medic_smartlabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F75F6842B609EE60054962B /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		5F75F6872B60A1760054962B /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		5F75F68A2B60A2280054962B /* OnBoardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingSlide.swift; sourceTree = "<group>"; };
+		5F75F68C2B60A2F80054962B /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		5F75F68E2B60CA500054962B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F75F64C2B609DD70054962B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F75F6622B609DD80054962B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F75F66C2B609DD80054962B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F75F6462B609DD70054962B = {
+			isa = PBXGroup;
+			children = (
+				5F75F6512B609DD70054962B /* medic_smartlab */,
+				5F75F6682B609DD80054962B /* medic_smartlabTests */,
+				5F75F6722B609DD80054962B /* medic_smartlabUITests */,
+				5F75F6502B609DD70054962B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F75F6502B609DD70054962B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F75F64F2B609DD70054962B /* medic_smartlab.app */,
+				5F75F6652B609DD80054962B /* medic_smartlabTests.xctest */,
+				5F75F66F2B609DD80054962B /* medic_smartlabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F75F6512B609DD70054962B /* medic_smartlab */ = {
+			isa = PBXGroup;
+			children = (
+				5F75F6892B60A2140054962B /* Models */,
+				5F75F6862B60A15F0054962B /* Extensions */,
+				5F75F6822B609EB20054962B /* Views */,
+				5F75F6522B609DD70054962B /* AppDelegate.swift */,
+				5F75F6542B609DD70054962B /* SceneDelegate.swift */,
+				5F75F6582B609DD70054962B /* Main.storyboard */,
+				5F75F65B2B609DD80054962B /* Assets.xcassets */,
+				5F75F65D2B609DD80054962B /* LaunchScreen.storyboard */,
+				5F75F6602B609DD80054962B /* Info.plist */,
+			);
+			path = medic_smartlab;
+			sourceTree = "<group>";
+		};
+		5F75F6682B609DD80054962B /* medic_smartlabTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F75F6692B609DD80054962B /* medic_smartlabTests.swift */,
+			);
+			path = medic_smartlabTests;
+			sourceTree = "<group>";
+		};
+		5F75F6722B609DD80054962B /* medic_smartlabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F75F6732B609DD80054962B /* medic_smartlabUITests.swift */,
+				5F75F6752B609DD80054962B /* medic_smartlabUITestsLaunchTests.swift */,
+			);
+			path = medic_smartlabUITests;
+			sourceTree = "<group>";
+		};
+		5F75F6822B609EB20054962B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F75F68E2B60CA500054962B /* ViewController.swift */,
+				5F75F6832B609ED30054962B /* OnBoarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F75F6832B609ED30054962B /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				5F75F6842B609EE60054962B /* OnBoardingViewController.swift */,
+				5F75F68C2B60A2F80054962B /* OnBoardingCollectionViewCell.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		5F75F6862B60A15F0054962B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5F75F6872B60A1760054962B /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5F75F6892B60A2140054962B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F75F68A2B60A2280054962B /* OnBoardingSlide.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F75F64E2B609DD70054962B /* medic_smartlab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F75F6792B609DD80054962B /* Build configuration list for PBXNativeTarget "medic_smartlab" */;
+			buildPhases = (
+				5F75F64B2B609DD70054962B /* Sources */,
+				5F75F64C2B609DD70054962B /* Frameworks */,
+				5F75F64D2B609DD70054962B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = medic_smartlab;
+			productName = medic_smartlab;
+			productReference = 5F75F64F2B609DD70054962B /* medic_smartlab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F75F6642B609DD80054962B /* medic_smartlabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F75F67C2B609DD80054962B /* Build configuration list for PBXNativeTarget "medic_smartlabTests" */;
+			buildPhases = (
+				5F75F6612B609DD80054962B /* Sources */,
+				5F75F6622B609DD80054962B /* Frameworks */,
+				5F75F6632B609DD80054962B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F75F6672B609DD80054962B /* PBXTargetDependency */,
+			);
+			name = medic_smartlabTests;
+			productName = medic_smartlabTests;
+			productReference = 5F75F6652B609DD80054962B /* medic_smartlabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F75F66E2B609DD80054962B /* medic_smartlabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F75F67F2B609DD80054962B /* Build configuration list for PBXNativeTarget "medic_smartlabUITests" */;
+			buildPhases = (
+				5F75F66B2B609DD80054962B /* Sources */,
+				5F75F66C2B609DD80054962B /* Frameworks */,
+				5F75F66D2B609DD80054962B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F75F6712B609DD80054962B /* PBXTargetDependency */,
+			);
+			name = medic_smartlabUITests;
+			productName = medic_smartlabUITests;
+			productReference = 5F75F66F2B609DD80054962B /* medic_smartlabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F75F6472B609DD70054962B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					5F75F64E2B609DD70054962B = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					5F75F6642B609DD80054962B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 5F75F64E2B609DD70054962B;
+					};
+					5F75F66E2B609DD80054962B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 5F75F64E2B609DD70054962B;
+					};
+				};
+			};
+			buildConfigurationList = 5F75F64A2B609DD70054962B /* Build configuration list for PBXProject "medic_smartlab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F75F6462B609DD70054962B;
+			productRefGroup = 5F75F6502B609DD70054962B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F75F64E2B609DD70054962B /* medic_smartlab */,
+				5F75F6642B609DD80054962B /* medic_smartlabTests */,
+				5F75F66E2B609DD80054962B /* medic_smartlabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F75F64D2B609DD70054962B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F75F65F2B609DD80054962B /* LaunchScreen.storyboard in Resources */,
+				5F75F65C2B609DD80054962B /* Assets.xcassets in Resources */,
+				5F75F65A2B609DD70054962B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F75F6632B609DD80054962B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F75F66D2B609DD80054962B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F75F64B2B609DD70054962B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F75F6532B609DD70054962B /* AppDelegate.swift in Sources */,
+				5F75F6552B609DD70054962B /* SceneDelegate.swift in Sources */,
+				5F75F6882B60A1760054962B /* UIView+Extensions.swift in Sources */,
+				5F75F68D2B60A2F80054962B /* OnBoardingCollectionViewCell.swift in Sources */,
+				5F75F68F2B60CA500054962B /* ViewController.swift in Sources */,
+				5F75F6852B609EE60054962B /* OnBoardingViewController.swift in Sources */,
+				5F75F68B2B60A2280054962B /* OnBoardingSlide.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F75F6612B609DD80054962B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F75F66A2B609DD80054962B /* medic_smartlabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F75F66B2B609DD80054962B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F75F6742B609DD80054962B /* medic_smartlabUITests.swift in Sources */,
+				5F75F6762B609DD80054962B /* medic_smartlabUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F75F6672B609DD80054962B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F75F64E2B609DD70054962B /* medic_smartlab */;
+			targetProxy = 5F75F6662B609DD80054962B /* PBXContainerItemProxy */;
+		};
+		5F75F6712B609DD80054962B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F75F64E2B609DD70054962B /* medic_smartlab */;
+			targetProxy = 5F75F6702B609DD80054962B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F75F6582B609DD70054962B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F75F6592B609DD70054962B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F75F65D2B609DD80054962B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F75F65E2B609DD80054962B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F75F6772B609DD80054962B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F75F6782B609DD80054962B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F75F67A2B609DD80054962B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = medic_smartlab/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yakse.medic-smartlab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F75F67B2B609DD80054962B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = medic_smartlab/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yakse.medic-smartlab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F75F67D2B609DD80054962B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yakse.medic-smartlabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/medic_smartlab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/medic_smartlab";
+			};
+			name = Debug;
+		};
+		5F75F67E2B609DD80054962B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yakse.medic-smartlabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/medic_smartlab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/medic_smartlab";
+			};
+			name = Release;
+		};
+		5F75F6802B609DD80054962B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yakse.medic-smartlabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = medic_smartlab;
+			};
+			name = Debug;
+		};
+		5F75F6812B609DD80054962B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yakse.medic-smartlabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = medic_smartlab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F75F64A2B609DD70054962B /* Build configuration list for PBXProject "medic_smartlab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F75F6772B609DD80054962B /* Debug */,
+				5F75F6782B609DD80054962B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F75F6792B609DD80054962B /* Build configuration list for PBXNativeTarget "medic_smartlab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F75F67A2B609DD80054962B /* Debug */,
+				5F75F67B2B609DD80054962B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F75F67C2B609DD80054962B /* Build configuration list for PBXNativeTarget "medic_smartlabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F75F67D2B609DD80054962B /* Debug */,
+				5F75F67E2B609DD80054962B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F75F67F2B609DD80054962B /* Build configuration list for PBXNativeTarget "medic_smartlabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F75F6802B609DD80054962B /* Debug */,
+				5F75F6812B609DD80054962B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F75F6472B609DD70054962B /* Project object */;
+}
